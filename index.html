@@ -26,12 +26,15 @@
         <a href="#">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
       <div class="navbar-extra">
         <a href="#" id="search-button"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
       <!-- Search Form -->
@@ -41,6 +44,43 @@
           ><i data-feather="search"></i
         ></label>
         <button id="close-search"><i data-feather="x"></i></button>
+      </div>
+
+      <!-- Shopping Cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img
+            src="./assets/img/products/coffee-beans-bag.jpg"
+            alt="Product Image"
+          />
+          <div class="item-detail">
+            <h3>Robusta Bean</h3>
+            <div class="item-price">IDR 45K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img
+            src="./assets/img/products/coffee-beans-bag.jpg"
+            alt="Product Image"
+          />
+          <div class="item-detail">
+            <h3>Robusta Bean</h3>
+            <div class="item-price">IDR 45K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img
+            src="./assets/img/products/coffee-beans-bag.jpg"
+            alt="Product Image"
+          />
+          <div class="item-detail">
+            <h3>Robusta Bean</h3>
+            <div class="item-price">IDR 45K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
       </div>
     </nav>
 
@@ -92,12 +132,12 @@
       <div class="row">
         <div class="menu-card">
           <img
-            src="./assets/img/menu/black-coffee2.jpg"
+            src="./assets/img/menu/black-coffee.jpg"
             alt="menu"
             class="menu-card-img"
           />
           <h3 class="menu-card-title">Black Coffee</h3>
-          <p class="menu-card-price">IDR 25.000</p>
+          <p class="menu-card-price">IDR 25K</p>
         </div>
         <div class="menu-card">
           <img
@@ -106,7 +146,7 @@
             class="menu-card-img"
           />
           <h3 class="menu-card-title">Cappuccino</h3>
-          <p class="menu-card-price">IDR 35.000</p>
+          <p class="menu-card-price">IDR 35K</p>
         </div>
         <div class="menu-card">
           <img
@@ -115,7 +155,7 @@
             class="menu-card-img"
           />
           <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 30.000</p>
+          <p class="menu-card-price">IDR 30K</p>
         </div>
         <div class="menu-card">
           <img
@@ -124,7 +164,7 @@
             class="menu-card-img"
           />
           <h3 class="menu-card-title">Latte</h3>
-          <p class="menu-card-price">IDR 40.000</p>
+          <p class="menu-card-price">IDR 40K</p>
         </div>
         <div class="menu-card">
           <img
@@ -133,7 +173,118 @@
             class="menu-card-img"
           />
           <h3 class="menu-card-title">Mocca</h3>
-          <p class="menu-card-price">IDR 45.000</p>
+          <p class="menu-card-price">IDR 45K</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        blanditiis omnis minus necessitatibus suscipit explicabo!
+      </p>
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart" id="cart-icon"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="./assets/img/products/coffee-beans-bag.jpg"
+              alt="product"
+            />
+          </div>
+          <div class="product-content">
+            <h3>TIKOM - Robusta Beans</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 45K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart" id="cart-icon"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="./assets/img/products/coffee-beans-bag2.jpg"
+              alt="product"
+            />
+          </div>
+          <div class="product-content">
+            <h3>TIKOM - Arabica Beans</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 45K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart" id="cart-icon"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="./assets/img/products/coffee-beans-bag.jpg"
+              alt="product"
+            />
+          </div>
+          <div class="product-content">
+            <h3>TIKOM - Robusta Beans</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 45K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart" id="cart-icon"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img
+              src="./assets/img/products/coffee-beans-bag2.jpg"
+              alt="product"
+            />
+          </div>
+          <div class="product-content">
+            <h3>TIKOM - Arabica Beans</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 45K <span>IDR 55K</span></div>
+          </div>
         </div>
       </div>
     </section>
@@ -182,6 +333,7 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
 
@@ -189,6 +341,42 @@
         <p>Created by <a href="">TurizCode</a>. | &copy; 2023.</p>
       </div>
     </footer>
+
+    <!-- Modal Box Item Detail -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon">
+          <i data-feather="x"></i>
+        </a>
+        <div class="modal-content">
+          <img
+            src="./assets/img/products/coffee-beans-bag.jpg"
+            alt="Product's Image"
+          />
+          <div class="product-content">
+            <h3>Robusta Bean</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus nostrum at repudiandae cumque voluptatem unde
+              asperiores esse laboriosam laudantium vero sapiente, blanditiis
+              distinctio, nihil veniam.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 45K <span>IDR 55K</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart" class="icon-cart"></i
+              ><span> add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Feather Icons -->
     <script>
