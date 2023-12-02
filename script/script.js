@@ -15,7 +15,7 @@ const loader = document.getElementById("preloader");
 
 // PRELOADER
 window.addEventListener("load", () => {
-  setTimeout(() => (loader.style.display = "none"), 2500);
+  setTimeout(() => (loader.style.display = "none"), 1000);
 });
 
 // HAMBURGER MENU
