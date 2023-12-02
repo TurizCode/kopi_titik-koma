@@ -11,6 +11,12 @@ const itemdetailButton = document.querySelector(".item-detail-button");
 const itemdetailButtons = document.querySelectorAll(".item-detail-button");
 const closeItemDetailButton = document.querySelector(".close-icon");
 const modalContainer = document.querySelector(".modal-container");
+const loader = document.getElementById("preloader");
+
+// PRELOADER
+window.addEventListener("load", () => {
+  setTimeout(() => (loader.style.display = "none"), 2500);
+});
 
 // HAMBURGER MENU
 // Toggle class active ketika search button diklik
